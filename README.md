@@ -10,4 +10,5 @@ To build all the images, run the following commands:
 docker build -t johndoe/circleci-base:x.x.x -f circleci-base.Dockerfile .
 docker build -t johndoe/circleci-gcc:x.x.x -f circleci-gcc.Dockerfile .
 docker build -t johndoe/circleci-clang:x.x.x -f circleci-clang.Dockerfile .
+docker build -t johndoe/circleci-doxygen:x.x.x -f circleci-doxygen.Dockerfile .
 ```
