@@ -1,4 +1,4 @@
-FROM emgre/circleci-base:0.0.3
+FROM emgre/circleci-base:0.0.4
 
 RUN apk add --no-cache \
     doxygen@edge \

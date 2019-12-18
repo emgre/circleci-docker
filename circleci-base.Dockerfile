@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.10
 
 # Add edge repository for bleeding edge dependencies
 RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
